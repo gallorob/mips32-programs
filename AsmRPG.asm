@@ -32,7 +32,7 @@ stat2:	.asciiz	"/75 \nExp: "
 stat3:	.asciiz	"/100 \nBase damage: "
 stat4:	.asciiz	"/10 \n\n\n\n\n"
 
-#	Dati per il gioco
+#	Game data
 buffer:	.space	2
 room0:	.byte	1
 player:	.byte	0x12, 0x4b, 0x19, 0x3	# HP(18), Mana(75), Exp(25), BaseDamage(3)
